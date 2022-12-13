@@ -1,5 +1,5 @@
 import type { ReactElement } from 'react';
-import { Wrapper, Title, Content } from './styles';
+import { Wrapper, Title, Content, Divider } from './styles';
 
 const Mission = (): ReactElement => {
   return (
@@ -11,6 +11,7 @@ const Mission = (): ReactElement => {
           alegrar sua vidis.Casamentiss faiz malandris se pirulitá.Leite de capivaris, leite de mula
           manquis sem cabeça.Detraxit consequat et quo num tendi nada.
         </p>
+        <Divider />
       </Content>
     </Wrapper>
   );

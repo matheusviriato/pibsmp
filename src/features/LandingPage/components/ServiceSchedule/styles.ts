@@ -1,32 +1,28 @@
 import { styled } from '@stitches/react';
 
 export const Wrapper = styled('section', {
-  padding: '64px 12px',
-  justifyContent: 'center',
+  textAlign: 'center',
+  padding: '24px 16px',
   '@media (max-width: 425px)': {
-    padding: '32px 12px',
-  }
-});
-
-export const Title = styled('h3', {
-  fontSize: '24px',
-  fontWeight: 'bold',
-  marginBottom: '32px',
-  '@media (max-width: 425px)': {
-    fontSize: '18px',
+    padding: '12px 16px',
   }
 });
 
 export const Content = styled('div', {
-  margin: '0 auto',
-  maxWidth: '768px',
+  display: 'flex',
+  flexDirection: 'row',
+  justifyContent: 'space-evenly',
+  '@media (max-width: 425px)': {
+    flexDirection: 'column',
+    gap: '24px',
+  }
 });
 
-export const Item = styled('li', {
-  marginBottom: '18px',
-})
-
-export const Day = styled('p', {
-  fontWeight: 'bold',
-  marginBottom: '14px',
+export const Title = styled('h3', {
+  fontSize: '22px',
+  fontWeight: 300,
+  marginBottom: '24px',
+  '@media (max-width: 425px)': {
+    fontSize: '16px',
+  }
 });

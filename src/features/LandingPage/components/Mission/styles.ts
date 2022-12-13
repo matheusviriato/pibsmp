@@ -1,13 +1,10 @@
 import { styled } from '@stitches/react';
 
 export const Wrapper = styled('section', {
-  display: 'flex',
-  justifyContent: 'center',
-  alignItems: 'center',
   textAlign: 'center',
-  padding: '64px 12px',
+  padding: '24px 16px',
   '@media (max-width: 425px)': {
-    padding: '32px 12px',
+    padding: '12px 16px',
   }
 });
 
@@ -24,3 +21,10 @@ export const Content = styled('div', {
   margin: '0 auto',
   maxWidth: '480px',
 });
+
+export const Divider = styled('div', {
+  height: '1px',
+  width: '100%',
+  marginTop: '22px',
+  backgroundColor: '#ccc',
+})

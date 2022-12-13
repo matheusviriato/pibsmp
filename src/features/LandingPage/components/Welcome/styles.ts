@@ -28,7 +28,18 @@ export const Title = styled('h1', {
 
 export const Subtitle = styled('h3', {
   fontSize: '22px',
+  marginBottom: '22px',
   '@media (max-width: 425px)': {
     fontSize: '18px',
   }
+});
+
+export const OnlineServiceLink = styled('a', {
+  textDecoration: 'none',
+  border: '2px solid #fff',
+  padding: '12px',
+  fontWeight: 400,
+  textTransform: 'uppercase',
+  cursor: 'pointer',
+  color: '#fff',
 });

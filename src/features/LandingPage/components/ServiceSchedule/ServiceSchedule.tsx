@@ -1,28 +1,24 @@
 import type { ReactElement } from 'react';
-import { Wrapper, Content, Title, Day, Item } from './styles';
+import { Wrapper, Content, Title } from './styles';
 
 const ServiceSchedule = (): ReactElement => {
   return (
     <Wrapper>
       <Content>
-        <Title>Programações e horários</Title>
+        <div>
+          <Title>Horário dos cultos</Title>
 
-        <ul>
-          <Item>
-            <Day>Quarta feira:</Day>
-            <p>19h - Culto de oração</p>
-          </Item>
-          <Item>
-            <div>
-              <Day>Domingo:</Day>
-              <p>9h - Culto matutino </p>
-              <p>10h30 - EBD</p>
-              <p>18h - Culto noturno</p>
-            </div>
-          </Item>
-        </ul>
+          <p>Quarta-feira (Culto de oração): 19:30</p>
+          <p>Domingo: 9:00 & 18:00</p>
+        </div>
 
-        <p>Endereço: Rua Arlindo Colaço, 85 - São Paulo, SP</p>
+        <div>
+          <Title>Endereço</Title>
+
+          <p>Rua Arlindo Colaço, 85</p>
+          <p>São Miguel Paulista, São Paulo - SP</p>
+          <p>08010-010</p>
+        </div>
       </Content>
     </Wrapper>
   );
