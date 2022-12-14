@@ -7,7 +7,7 @@ export const Wrapper = styled('section', {
 
 export const PibLogo = styled('img', {
   height: '62px',
-  width: 'fit-content',
+  width: 'auto',
   '@media (max-width: 425px)': {
     height: '40px',
   }
