@@ -20,7 +20,7 @@ export const Content = styled('div', {
 
 export const Title = styled('h3', {
   fontSize: '22px',
-  fontWeight: 300,
+  fontWeight: 400,
   marginBottom: '24px',
   '@media (max-width: 425px)': {
     fontSize: '16px',

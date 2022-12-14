@@ -11,7 +11,7 @@ export const Wrapper = styled('section', {
 export const Title = styled('h1', {
   fontSize: '32px',
   marginBottom: '32px',
-  fontWeight: 'bold',
+  fontWeight: 600,
   '@media (max-width: 425px)': {
     fontSize: '18px',
   }

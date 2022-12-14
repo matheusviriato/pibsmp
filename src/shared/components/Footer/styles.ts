@@ -48,7 +48,7 @@ export const SocialMedias = styled('div', {
 })
 
 export const Title = styled('p', {
-  fontWeight: '300',
+  fontWeight: 400,
   marginBottom: '12px',
 });
 
