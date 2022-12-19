@@ -2,7 +2,6 @@ import { styled } from '@stitches/react';
 import coverImagePath from '@/assets/cover.jpg';
 
 export const Wrapper = styled('section', {
-  height: '680px',
   backgroundImage: `url(${coverImagePath})`,
   backgroundSize: 'cover',
   backgroundPosition: 'bottom',
@@ -12,34 +11,44 @@ export const Wrapper = styled('section', {
   textAlign: 'center',
   color: '#fff',
   flexDirection: 'column',
-  '@media (max-width: 425px)': {
-    padding: '0 12px',
-  }
+  padding: '118px 0px'
+  // '@media (max-width: 425px)': {
+  //   padding: '0 12px',
+  // }
 });
 
 export const Title = styled('h1', {
-  fontSize: '86px',
-  marginBottom: '18px',
-  fontWeight: 'bold',
-  '@media (max-width: 425px)': {
-    fontSize: '54px',
-  }
+  fontSize: '96px',
+  textTransform: 'uppercase',
+  fontWeight: '800',
+  // '@media (max-width: 425px)': {
+  //   fontSize: '54px',
+  // }
 });
 
 export const Subtitle = styled('h3', {
-  fontSize: '22px',
-  marginBottom: '22px',
-  '@media (max-width: 425px)': {
-    fontSize: '18px',
-  }
+  fontSize: '32px',
+  marginBottom: '87px',
+  fontWeight: '400',
+  // '@media (max-width: 425px)': {
+  //   fontSize: '18px',
+  // }
 });
+
+export const Divider = styled('div', {
+  height: '2px',
+  width: '180px',
+  margin: '18px 0px',
+  backgroundColor: '#fff',
+})
 
 export const OnlineServiceLink = styled('a', {
   textDecoration: 'none',
-  border: '2px solid #fff',
-  padding: '12px',
+  border: '1px solid #fff',
+  borderRadius: '8px',
+  padding: '8px 28px',
   fontWeight: 400,
-  textTransform: 'uppercase',
+  fontSize: '32px',
   cursor: 'pointer',
   color: '#fff',
 });
