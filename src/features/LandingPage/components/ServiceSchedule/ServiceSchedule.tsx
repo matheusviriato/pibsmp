@@ -8,8 +8,9 @@ const ServiceSchedule = (): ReactElement => {
         <div>
           <Title>Horário dos cultos</Title>
 
-          <p>Quarta-feira (Culto de oração): 19:30</p>
-          <p>Domingo: 9:00 & 18:00</p>
+          <p>Quarta-feira (Culto de oração): 19h30</p>
+          <p>Domingo: 9h00 & 18h00</p>
+          <p>EBD: 10h15</p>
         </div>
 
         <div>
@@ -17,7 +18,7 @@ const ServiceSchedule = (): ReactElement => {
 
           <p>Rua Arlindo Colaço, 85</p>
           <p>São Miguel Paulista, São Paulo - SP</p>
-          <p>08010-010</p>
+          <p>CEP: 08010-010</p>
         </div>
       </Content>
     </Wrapper>

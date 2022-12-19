@@ -1,7 +1,8 @@
-import { Footer } from '@/shared/components/Footer';
+// import { Footer } from '@/shared/components/Footer';
 import { Mission } from './components/Mission';
 import { ServiceSchedule } from './components/ServiceSchedule';
 import { Welcome } from './components/Welcome';
+import { Donation } from './components/Donation';
 
 const LandingPage = () => {
   return (
@@ -9,7 +10,8 @@ const LandingPage = () => {
       <Welcome />
       <Mission />
       <ServiceSchedule />
-      <Footer />
+      <Donation />
+      {/* <Footer /> */}
     </div>
   );
 };

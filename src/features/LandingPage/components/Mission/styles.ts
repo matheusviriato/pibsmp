@@ -8,7 +8,7 @@ export const Wrapper = styled('section', {
   }
 });
 
-export const Title = styled('h1', {
+export const Title = styled('h3', {
   fontSize: '32px',
   marginBottom: '43px',
   fontWeight: 800,
