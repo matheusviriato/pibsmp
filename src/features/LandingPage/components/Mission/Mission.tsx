@@ -1,17 +1,16 @@
 import type { ReactElement } from 'react';
-import { Wrapper, Title, Content, Divider } from './styles';
+import { Wrapper, Title, Text, Content } from './styles';
 
 const Mission = (): ReactElement => {
   return (
     <Wrapper>
       <Content>
         <Title>Nossa missão</Title>
-        <p>
-          Mussum Ipsum, cacilds vidis litro abertis. Tá deprimidis, eu conheço uma cachacis que pode
-          alegrar sua vidis.Casamentiss faiz malandris se pirulitá.Leite de capivaris, leite de mula
-          manquis sem cabeça.Detraxit consequat et quo num tendi nada.
-        </p>
-        <Divider />
+        <Text>Transformar e restaurar vidas.</Text>
+        <Text>
+          Ser uma Igreja adoradora, acolhedora, temente à Palavra de Deus e comprometida em fazer
+          Jesus conhecido de todas as nações.
+        </Text>
       </Content>
     </Wrapper>
   );

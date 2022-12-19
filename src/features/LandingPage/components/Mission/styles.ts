@@ -2,7 +2,7 @@ import { styled } from '@stitches/react';
 
 export const Wrapper = styled('section', {
   textAlign: 'center',
-  padding: '24px 16px',
+  padding: '167px 0px',
   '@media (max-width: 425px)': {
     padding: '12px 16px',
   }
@@ -10,21 +10,19 @@ export const Wrapper = styled('section', {
 
 export const Title = styled('h1', {
   fontSize: '32px',
-  marginBottom: '32px',
-  fontWeight: 600,
+  marginBottom: '43px',
+  fontWeight: 800,
   '@media (max-width: 425px)': {
     fontSize: '18px',
   }
 });
 
-export const Content = styled('div', {
-  margin: '0 auto',
-  maxWidth: '480px',
+export const Text = styled('p', {
+  fontSize: '24px',
+  fontWeight: 300,
 });
 
-export const Divider = styled('div', {
-  height: '1px',
-  width: '100%',
-  marginTop: '22px',
-  backgroundColor: '#ccc',
-})
+export const Content = styled('div', {
+  margin: '0 auto',
+  maxWidth: '620px',
+});
