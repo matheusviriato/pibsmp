@@ -1,3 +1,4 @@
+import { Footer } from '@/shared/components/Footer';
 import { ContactUs } from './components/ContactUs';
 import { Donation } from './components/Donation';
 import { Mission } from './components/Mission';
@@ -12,6 +13,7 @@ const LandingPage = () => {
       <ServiceSchedule />
       <ContactUs />
       <Donation />
+      <Footer />
     </div>
   );
 };

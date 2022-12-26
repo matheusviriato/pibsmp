@@ -1,17 +1,18 @@
 import { ReactElement } from 'react';
 import {
   Wrapper,
-  PibLogo,
-  SocialWrapper,
-  SocialMedias,
   Content,
-  Title,
+  PibLogo,
+  Text,
+  AppTitle,
+  StoreArea,
   StoreBadge,
-  AppDownload,
+  SocialMediasArea,
 } from './styles';
-import pibLogo from '@/assets/piblogo.png';
-import facebookIcon from '@/assets/facebook-icon.svg';
-import youtubeIcon from '@/assets/youtube-icon.svg';
+import pibLogo from '@/assets/pib-logo.png';
+import facebookLogo from '@/assets/facebook-logo.png';
+import youtubeLogo from '@/assets/youtube-logo.png';
+import instagramLogo from '@/assets/instagram-logo.png';
 import googlePlay from '@/assets/google-play-badge.png';
 import appStore from '@/assets/app-store-badge.svg';
 
@@ -19,37 +20,39 @@ const Footer = (): ReactElement => {
   return (
     <Wrapper>
       <Content>
-        <SocialWrapper>
-          <PibLogo src={pibLogo} />
-          <SocialMedias>
-            <a href="https://www.facebook.com/pibsaomiguel" target="_blank">
-              <img src={facebookIcon} />
-            </a>
-            <a href="https://www.youtube.com/@Pibsaomiguel" target="_blank">
-              <img src={youtubeIcon} />
-            </a>
-          </SocialMedias>
-        </SocialWrapper>
+        <PibLogo>
+          <img src={pibLogo} alt="Logo da PIB São Miguel" />
+        </PibLogo>
 
         <div>
-          <Title>Fale conosco:</Title>
-          <p>Whatsapp: +55 (11) 99999-9999</p>
-          <p>Telefone: +55 (11) 9999-9999</p>
+          <Text>WhatsApp: +55 11 9 xxxx xxxx</Text>
+          <Text>Telefone: +55 11 xxxx xxxx</Text>
+          <SocialMediasArea>
+            <a href="https://www.facebook.com/pibsaomiguel" target="_blank">
+              <img src={facebookLogo} alt="Logo do Facebook" />
+            </a>
+            <a href="https://www.youtube.com/@Pibsaomiguel" target="_blank">
+              <img src={youtubeLogo} alt="Logo do Youtube" />
+            </a>
+            <a href="https://www.instagram.com/pibsaomiguel/" target="_blank">
+              <img src={instagramLogo} alt="Logo do Instagram" />
+            </a>
+          </SocialMediasArea>
         </div>
 
         <div>
-          <Title>Baixe o nosso app:</Title>
-          <AppDownload>
+          <AppTitle>Baixe o nosso app</AppTitle>
+          <StoreArea>
             <a
               href="https://play.google.com/store/apps/details?id=br.com.raise.app10976&hl=pt_BR&gl=US"
               target="_blank"
             >
-              <StoreBadge src={googlePlay} />
+              <StoreBadge src={googlePlay} alt="Badge da Google Play Store" />
             </a>
             <a href="#">
-              <StoreBadge src={appStore} />
+              <StoreBadge src={appStore} alt="Badge da Apple App Store" />
             </a>
-          </AppDownload>
+          </StoreArea>
         </div>
       </Content>
     </Wrapper>

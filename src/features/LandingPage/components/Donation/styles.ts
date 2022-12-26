@@ -1,8 +1,16 @@
 import { styled } from '@stitches/react';
 
-export const Wrapper = styled('div', {
+export const Wrapper = styled('section', {
   padding: '23px 16px 44px 16px',
   backgroundColor: '#D9D9D9',
+  '@media (max-width: 768px)': {
+    padding: '70px 16px',
+  }
+});
+
+export const Content = styled('div', {
+  margin: '0 auto',
+  maxWidth: '1024px',
   display: 'flex',
   justifyContent: 'space-evenly',
   alignItems: 'center',
@@ -10,7 +18,6 @@ export const Wrapper = styled('div', {
   '@media (max-width: 768px)': {
     flexDirection: 'column',
     gap: '38px',
-    padding: '70px 16px',
   }
 });
 
