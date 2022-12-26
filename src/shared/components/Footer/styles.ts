@@ -78,3 +78,17 @@ export const StoreArea = styled('div', {
 export const StoreBadge = styled('img', {
   width: '120px',
 });
+
+export const DevelopedBy = styled('div', {
+  backgroundColor: '#333',
+  padding: '28px 16px',
+  display: 'flex',
+  justifyContent: 'center',
+  color: '#fff',
+  fontSize: '16px',
+  fontWeight: 400,
+  '@media (max-width: 768px)': {
+    padding: '16px',
+    fontSize: '12px',
+  }
+});

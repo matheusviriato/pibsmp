@@ -7,9 +7,9 @@ const ContactUs = (): ReactElement => {
     <Wrapper>
       <Content>
         <Title>Receba nossas notícias. Cadastre o nosso WhatsApp</Title>
-        <Link href="#">
+        <Link href="https://wa.me/message/IUGAHKZOZWSJD1" target="_blank">
           <WhatsappContent>
-            <WhatsappIcon src={whatsAppIcon} />
+            <WhatsappIcon src={whatsAppIcon} alt="Logo do Whatsapp" />
             <Text>
               Clique aqui para cadastrar o nosso WhatsApp e ficar por dentro do que acontece na PIB!
             </Text>

@@ -16,6 +16,7 @@ export const Content = styled('div', {
   alignItems: 'center',
   flexDirection: 'row',
   '@media (max-width: 768px)': {
+    textAlign: 'center',
     flexDirection: 'column',
     gap: '38px',
   }

@@ -20,9 +20,10 @@ const Donation = (): ReactElement => {
           <Text>Sua doação ajuda a manter os projetos da Igreja</Text>
         </DonationExplanationArea>
         <div>
-          <Text>Banco: xxxxx</Text>
-          <Text>Conta: xxxxx</Text>
-          <Text>Agência: xxxxx</Text>
+          <Text>Banco: Itaú Unibanco S.A</Text>
+          <Text>Conta: 7593-2</Text>
+          <Text>Agência: 7877</Text>
+          <Text>CNPJ: 63.103.626/0001-43</Text>
         </div>
         <PixArea>
           <PixTitle>Doe Com PIX</PixTitle>
